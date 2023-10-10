@@ -1,0 +1,493 @@
+<style>
+
+    .dreptunghi
+    {
+        height:150px;
+        width:1520px;
+        background-color: black;
+        background-image: url("iconSport.png");
+        background-repeat: no-repeat;
+        background-position: 160px 30px;
+     }
+
+       .pozitie-p
+       {
+            position: relative;
+            margin-top:115px;
+            margin-left:195px;
+            display:inline-block;        
+            color:aliceblue;
+            cursor:pointer;
+        }
+
+       .nume-p
+       {
+            position:relative;
+            margin-top:-100px;
+            margin-left:240px;
+            color:aliceblue;
+        }
+
+       .search-container 
+       {
+          position:relative;
+          display: flex;
+          align-items: center;
+          max-width: 300px;
+          margin: 0 auto;
+          border-radius: 5px;
+          padding: 5px;
+          margin-top:-120px;
+          margin-left:570px;
+     }
+
+        #search-input
+         {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 5px;
+      }
+
+          #search-button 
+          {
+          background-color:yellow;
+          color: black;
+          border: none;
+          border-radius: 5px;
+          padding: 5px 10px;
+          cursor: pointer;
+          margin-left: 5px;
+     }
+
+       .button-MyAccount
+       {
+            position:absolute;
+            width:150px;
+            margin-top: -343px;
+            left:1100px;
+            height:30px;
+            background-repeat: no-repeat;
+            background-image: url("headIcon.png");
+            background-size: 30px 25px; 
+            cursor:pointer;
+          }
+         
+         .button-myBasket
+         {
+             position:absolute;
+             width:150px;
+             height:30px;
+             margin-top:-37px;
+             margin-left:1300px;
+             background-repeat:no-repeat ;
+             background-image: url("shoppingCart.png");
+             background-size: 30px 25px;
+             cursor:pointer;
+         }
+
+         .titlu
+         {
+               position:relative;
+               top:110px;
+               left:630px;
+               font-size: 30px;
+         }
+
+         * {box-sizing:border-box}
+
+
+         .slidershow-container
+         {
+          max-width: 100%;
+          width:700px;
+          position:absolute;
+          margin:auto;
+          margin-top: 80px;
+          left: -100px;
+          right: 0;
+          
+     }
+
+           .mySlides
+           {
+               display:none;
+                width:100%;
+                margin: 0 auto;
+                
+            }
+
+           .prev, .next
+           {
+               cursor:pointer;
+               position:absolute;
+               top:50%;
+               width:auto;
+               margin-top:-22px;
+               padding:16px;
+               color:white;
+               font-weight:bold;
+               font-size:18px;
+               transition: 0.6 ease;
+               border-radius:0 3px 0px;
+               user-select:none;
+          }
+
+           .next
+           {
+               right:0;
+               border-radius: 3px 0 0 3px;
+           }
+
+
+           .prev:hover, .next:hover
+           {
+               background-color:rgba(0,0,0,0.8) ;
+
+           }
+
+           .dot
+          {
+               cursor:pointer;
+               height:15px;
+               width:15px;
+               margin:0 2px;
+               background-color:#bbb ;
+               border-radius: 50%;
+               display:inline-block;
+               transition: background-color 0.6 ease;
+          }
+
+           .active, .dot:hover
+           {
+               background-color: #717171;
+           }
+
+           .fade 
+           {
+               animation-name:fade;
+               animation-duration: 1.5s;
+            }
+
+           @keyframes fade 
+           {
+               from {opacity: .4}
+               to {opacity: 1}
+           }
+
+           .dots-container
+           {
+                position:absolute;
+                top:900px;
+                left:670px;
+           }
+
+           .text
+           {
+                position:relative;
+                top:-600px;
+                left:240px;
+                font-size:35px;
+           }
+
+           .airJordan1
+           {
+                position:relative;
+                left:1200px;
+                top:150px;
+                width:200px;
+           }
+
+           .womenAirForce
+           {
+                position:absolute;
+                top:260px;
+                left:100px;
+                width:200px;
+           }
+
+           .nikeShoesKid
+           {
+                position:absolute;
+                top:650px;
+                left:100px;
+                width:200px;
+           }
+
+            .ghiozdan
+            {
+                position:absolute;
+                top:650px;
+                left:1200px;
+                width:200px;
+
+            }
+
+            .titluHaine
+            {
+                position:relative;
+                top:650px;
+                left:100px; 
+                font-size:20px;
+            }
+
+
+            .haineFemei
+            {
+                position:absolute;
+                top:1050px;
+                left:200px;
+                width:200px;
+            }
+
+            .haineBarbati
+            {
+                position:absolute;
+                top:1050px;
+                left:640px;
+                width:200px;
+            }
+
+            .haineCopi
+            {
+                position:absolute;
+                top:1050px;
+                left:1100px;
+                width:200px;
+            }
+
+            .optiuni-Cont 
+            {
+                display: none;
+                position: absolute;
+                background-color: white;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                padding: 10px;
+                z-index: 1;
+                margin-left: 35px;
+                margin-top: 5px;
+             }
+
+            .button-MyAccount:hover .optiuni-Cont 
+            {
+            display: block;
+            }
+
+            a 
+            {
+                color:white
+            }
+
+            a, a:link, a:visited, a:hover, a:active 
+            {
+                text-decoration: none;
+            }
+
+            
+            .shoesMen
+            {
+                position:relative;
+                top:200px;
+                left:1200px;
+            }
+
+            .p-ShoesMen
+            {
+                position:relative;
+                top:120px;
+                left:1265px;
+                cursor:pointer;
+            }
+
+            .p-ShoesWomen
+            {
+                position:relative;
+                top:90px;
+                left:140px;
+            }
+
+            .p-ShoesKid
+            {
+                position:relative;
+                top:445px;
+                left:155px;
+            }
+
+            .p-Accesories
+            {
+                position:relative;
+                top:420px;
+                left:1255px;
+            }
+
+            .women-p
+            {
+                position:relative;
+                top:730px;
+                margin-left:245px;
+                margin-right:180px;
+                display:inline-block;
+            }
+
+
+
+</style>
+<div class="dreptunghi">
+<p class="pozitie-p">
+    <a href="Men.html">Men</a>
+</p>
+<p class="pozitie-p">
+    <a href="Women.html">Women</a>
+</p>
+<p class="pozitie-p">
+    <a href="Kids.html">Kids</a>
+</p>
+<p class="pozitie-p">
+    <a href="Accesories.html">Accesories</a>
+</p>
+<p class="pozitie-p">
+      <a href="Brands.html">Brands</a>
+</p>
+
+<p class="nume-p">ACTIVE GEAR HUB</p>
+</div>
+<div class="slidershow-container">
+     <div class="mySlides fade">
+         <img src="nikeDunkLow.png" style="width:100%">
+            <div class="text">Nike Dunk Low</div>
+        </div>
+ 
+     <div class="mySlides fade">
+         <img src="nikeVaporMax.png" style="width:100%">
+            <div class="text">Nike Vapor Max</div>
+        </div>
+ 
+     <div class="mySlides fade">
+         <img src="newBalance.png" style="width:100%">
+            <div class="text">New Balance</div>
+        </div>
+ 
+     <div class="mySlides fade">
+        <img src="jordanMid.png" style="width:100%">
+            <div class="text">Air Jordan Retro 1</div>
+    </div>
+ </div>
+ 
+
+<div class="dots-container">
+ <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+</div>
+</div>
+<div class="mySlides img"></div>
+ <div class="search-container">
+     <input type="text" id="search-input" placeholder="Search...">
+     <button type="submit" id="search-button">Search</button>
+ </div>
+ <button type="text" class="button-myBasket">MyBasket</button>
+ <div class="titlu">New Relase</div>
+ <a href="MenShoes.html">
+ <img src="airJordan1.png" class="airJordan1">
+</a>
+    <a href="WomenShoes.html">
+    <img src="nikeShoesWoman.png" class="womenAirForce">
+</a>
+<a href="KidShoes.html">
+<img src="nikeShoesKid.png" class="nikeShoesKid">
+</a>
+<a href="AccesoriesMain.html">
+<img src="ghiozdan.png" class="ghiozdan">
+</a>
+
+<div class="titluHaine">Trending Outfits</div>
+<a href="TrendingOutfitWomen.html">
+<img src="womenCloth.png" class="haineFemei">
+</a>
+<a href="TrendingOutfitMen.html">
+<img src="menCloth.png" class="haineBarbati">
+</a>
+<a href="TrendingOutfitKid.html">
+<img src="kidCloth.png" class="haineCopi">
+</a>
+<button type="text" class="button-MyAccount">My Account
+    <div class="optiuni-Cont" id="optiuniCont">
+        <p>Sign In</p>
+        <p>Register</p>
+    </div>
+</button>
+
+<p class="p-ShoesMen">Men Shoe's</p>
+<p class="p-ShoesWomen">Women Shoe's</p>
+<p class="p-ShoesKid">Kid Shoe's</p>
+<p class="p-Accesories">Accesories</p>
+
+<p class="women-p">Women</p>
+<p class="women-p">Men</p>
+<p class="women-p">Kid</p>
+
+
+
+<script>
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+let optiuniCont = document.getElementById('optiuniCont');
+let myAccountButton = document.querySelector('.button-MyAccount');
+
+function afiseazaOptiuniCont() {
+    optiuniCont.style.display = 'block';
+}
+
+function ascundeOptiuniCont() {
+    optiuniCont.style.display = 'none';
+}
+
+myAccountButton.addEventListener('mouseover', afiseazaOptiuniCont);
+myAccountButton.addEventListener('mouseleave', ascundeOptiuniCont);
+
+    document.getElementById('search-form').addEventListener('submit', function (e){
+        e.preventDefault();
+
+        let searchTerm=document.getElementById('search-input').value;
+
+        if(searchTerm.trim() !== '')
+        {
+            let searchUrl = 'search.html?q=' + encodeURIComponent(searchTerm);
+
+            window.location.href = searchUrl;
+
+        }
+
+    })
+        
+</script>

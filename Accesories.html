@@ -1,0 +1,399 @@
+<style>
+
+    .dreptunghi
+        {
+            height:150px;
+            width:1520px;
+            background-color: black;
+            background-image: url("iconSport.png");
+            background-repeat: no-repeat;
+            background-position: 160px 30px;
+         }
+    
+           .pozitie-p
+           {
+                position: relative;
+                margin-top:115px;
+                margin-left:195px;
+                display:inline-block;        
+                color:aliceblue;
+           }
+    
+           .nume-p
+           {
+                position:relative;
+                margin-top:-100px;
+                margin-left:240px;
+                color:aliceblue;
+           }
+    
+           .search-container 
+           {
+              position:relative;
+              display: flex;
+              align-items: center;
+              max-width: 300px;
+              margin: 0 auto;
+              border-radius: 5px;
+              padding: 5px;
+              margin-top:-120px;
+              margin-left:570px;
+         }
+    
+            #search-input
+             {
+                flex: 1;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                padding: 5px;
+          }
+    
+              #search-button 
+              {
+              background-color:yellow;
+              color: black;
+              border: none;
+              border-radius: 5px;
+              padding: 5px 10px;
+              cursor: pointer;
+              margin-left: 5px;
+         }
+    
+         .button-MyAccount
+           {
+                position:absolute;
+                width:150px;
+                margin-top: -35px;
+                left:1100px;
+                height:30px;
+                background-repeat: no-repeat;
+                background-image: url("headIcon.png");
+                background-size: 30px 25px; 
+                cursor:pointer;
+              }
+             
+             .button-myBasket
+             {
+                 position:absolute;
+                 width:150px;
+                 height:30px;
+                 margin-top:-37px;
+                 margin-left:1300px;
+                 background-repeat:no-repeat ;
+                 background-image: url("shoppingCart.png");
+                 background-size: 30px 25px;
+                 cursor:pointer;
+             }
+    
+             .optiuni-Cont 
+                {
+                    display: none;
+                    position: absolute;
+                    background-color: white;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    padding: 10px;
+                    z-index: 1;
+                    margin-left: 35px;
+                    margin-top: 5px;
+                 }
+    
+                .button-MyAccount:hover .optiuni-Cont 
+                {
+                display: block;
+                }
+    
+    
+                a 
+                {
+                    color:white
+                }
+    
+                a, a:link, a:visited, a:hover, a:active 
+                {
+                    text-decoration: none;
+                }
+    
+                .KidShoes
+                {
+                    position:absolute;
+                    top:230px;
+                    left:300px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+    
+                .containerPoze
+                {
+                    position:relative;
+                    display:flex;
+                    top:250px;
+                    left:320px;
+                    width:200px;
+                   
+                }
+    
+                .containerPoze img 
+                {
+                   
+                    display:flex;
+                    top:300px;
+                    left:200px;
+                    width:200px;
+                }
+    
+                .containerPoze img + img
+                {
+                    margin-left: 100px;
+                }
+    
+                .alDoileacontainerPoze
+                {
+                    position:relative;
+                    display:flex;
+                    top:350px;
+                    left:320px;
+                    width:200px;
+                }
+    
+                .alDoileacontainerPoze img 
+                {
+                    display:flex;
+                    width:200px;
+                }
+    
+                .alDoileacontainerPoze img + img
+                {
+                    margin-left:100px;
+                }
+    
+                .containerIcoane
+                {
+                    position:relative;
+                    display:flex;
+                    top:-140px;
+                    left:40px;
+                    flex-wrap: wrap;
+                    cursor: pointer;
+                }
+    
+                .containerIcoane img
+                {
+                    display: block; 
+                    width: 30px;
+                    margin-right: 10px; 
+                    margin-bottom: 10px;
+                }
+    
+                .brand
+               {
+                    position:absolute;
+                    top:280px;
+                    left:50px;
+                    font-size:15px;
+               }
+    
+    
+               .primulAdidas
+               {
+                position:relative;
+                top:10px;
+                left:280px;
+                font-size:13px;
+                font-weight: bold;
+            }
+    
+            .alDoileaAdidas
+            {
+                position:relative;
+                top:-18px;
+                left:615px;
+                font-size:12px;
+                font-weight: bold;
+            }
+    
+            .alTreileaAdidas
+            {
+                position:relative;
+                top:-43px;
+                left:940px;
+                font-size:12px;
+                font-weight: bold;
+            }
+    
+            .alPatruleaAdidas
+            {
+                position:relative;
+                top:-68px;
+                left:1220px;
+                font-size:12px;
+                font-weight: bold;
+            }
+    
+            .texte-p
+           {
+                position: relative;
+                margin-top:215px;
+                left:250px;
+                margin-left:120px;
+                display:inline-block;   
+                font-size:12px;     
+                margin-right:10px;
+                font-weight: bold;
+            }
+    
+            .descriere
+            {
+                position:absolute;
+                top:950px;
+                left:50px;
+                font-size:13px;
+                font-weight: bold;
+            }
+    
+            .linie
+                {
+                    position:relative;
+                    border:1px solid black;
+                    top:200px;
+                }
+    
+                ul
+                {
+                    position:relative;
+                    top:250px;
+                    left:200px;
+                    font-weight:bold;
+                    cursor:pointer;
+                }
+    
+                ul.second-list
+                {
+                    position:relative;
+                    top:140px;
+                    left:900px;
+                    cursor:pointer;
+                }
+    
+                .containerPoze a 
+                {
+                display: inline-block; 
+                margin-right: 103px; 
+                }
+    
+                .alDoileacontainerPoze a
+                {
+                    display: inline-block; 
+                    margin-right: 105px; 
+                }
+    
+    
+    </style>
+    <div class="dreptunghi">
+        <p class="pozitie-p">
+            <a href="Men.html">Men</a>
+        </p>
+        <p class="pozitie-p">
+            <a href="Women.html">Women</a>
+        </p>
+        <p class="pozitie-p">
+            <a href="Kids.html">Kids</a>
+        </p>
+        <p class="pozitie-p">
+            <a href="Accesories.html">Accesories</a>
+        </p>
+        <p class="pozitie-p">
+            <a href="Brands.html">Brands</a>
+        </p>
+        <p class="nume-p">ACTIVE GEAR HUB</p>
+        </div>
+    
+        <div class="search-container">
+           <input type="text" id="search-input" placeholder="Search...">
+           <button id="search-button">Search</button>
+       </div>
+       <button type="text" class="button-myBasket">MyBasket</button>
+       <button type="text" class="button-MyAccount">My Account
+           <div class="optiuni-Cont" id="optiuniCont">
+               <p>Sign In</p>
+               <p>Register</p>
+           </div>
+       </button>
+    
+       <p class="KidShoes">ACCESORIES</p>
+       <div class="containerPoze">
+           <a href="AccesoriesRedirection1.html">
+            <img src="mingeAccesorii.png">
+        </a>
+           <a href="AccesoriesRedirection2.html">
+           <img src="sticlaAccesorii.png">
+        </a>
+           <a href="AccesoriesRedirection3.html">
+           <img src="palarieAccesorii.png">
+        </a>
+           <a href="AccesoriesRedirection4.html">
+           <img src="soseteAccesorii.png">
+        </a>
+        </div>
+           <div class="alDoileacontainerPoze">
+               <a href="AccesoriesRedirection5.html">
+               <img src="sapcaAccesorii.png">
+        </a>
+            </div>
+           <div class="containerIcoane">
+               <img src="nikeIcon.png">
+               <img src="jordanIcon.png">
+               <img src="adidasIcon.png">
+               <img src="converseIcon.png">
+           </div>
+           <p class="brand">Brand</p>
+    
+           <p class="primulAdidas">NIKE EVERYDAY PLAYGROUND 8P BASKETBALL</p>
+           <p class="alDoileaAdidas">CORKCICLE 640Z SERIES A SPORT JUG</p>
+           <p class="alTreileaAdidas">NIKE BOONIE BUCKET HAT</p>
+           <p class="alPatruleaAdidas">NIKE CREW TRAINING SOCKS(6-PACK)</p>
+           <p class="texte-p">NIKE TRUCKER HAT</p>
+    
+           <p class="descriere">ACCESSORIES FOR MEN, WOMEN & KIDS<br>
+            <br>Add the missing finishing touch to your look with accessories from ACTIVE GEAR HUB. Finish off any look with essential athletic accessories from the brands you love like Nike, adidas, CorkcicleCrocs and more. ACTIVE GEAR HUB has tons of accessories like socks, headbands, hair ties and underwear that look great and keep you feeling comfortable whether you’re just chilling at home or putting in the work at the gym or practice. Need a new bag to carry all of your stuff? ACTIVE GEAR HUB has a wide array of backpacks from all of the hottest brands that are perfect for school or the gym. We have tons of hats to choose from as well, including dad hats, snapbacks and fitted caps. Keep yourself hydrated with a high-quality insulated water bottle, tumbler or mug from Corkcicle. Crocs are already full of personality, but why not liven them up even more with a pack or two of Crocs Jibbitz charms? If you care about your shoes as much as we do, (and we know you do) consider picking up some Crep Protect shoe care products to make sure that your kicks stay looking their best for as long as possible.</p>
+    
+            <div class="linie"></div>
+    
+            <ul>Shopping with ACTIVE GEAR HUB
+                    
+                <li>Shipping Policy</li>
+                <li>Payment Methods</li>
+                <li>Gift Cards</li>
+                <li>Sizing chart</li>
+                <li>Store Directory</li>
+            </ul>
+    
+            <ul class="second-list">LEGAL
+                <li>Privacy Policy</li>
+                <li>Targeted Ads Notice</li>
+                <li>Terms of Use</li>
+                <li>Do not sell or share my personal Data</li>
+            </ul>
+    
+    
+    
+            <script>
+    
+                let optiuniCont = document.getElementById('optiuniCont');
+                let myAccountButton = document.querySelector('.button-MyAccount');
+                
+                function afiseazaOptiuniCont() {
+                    optiuniCont.style.display = 'block';
+                }
+                
+                function ascundeOptiuniCont() {
+                    optiuniCont.style.display = 'none';
+                }
+                
+                myAccountButton.addEventListener('mouseover', afiseazaOptiuniCont);
+                myAccountButton.addEventListener('mouseleave', ascundeOptiuniCont);
+                
+                
+                
+                
+                    </script>

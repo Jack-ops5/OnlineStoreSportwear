@@ -1,0 +1,408 @@
+<style>
+
+.dreptunghi
+    {
+        height:150px;
+        width:1520px;
+        background-color: black;
+        background-image: url("iconSport.png");
+        background-repeat: no-repeat;
+        background-position: 160px 30px;
+     }
+
+       .pozitie-p
+       {
+            position: relative;
+            margin-top:115px;
+            margin-left:195px;
+            display:inline-block;        
+            color:aliceblue;
+       }
+
+       .nume-p
+       {
+            position:relative;
+            margin-top:-100px;
+            margin-left:240px;
+            color:aliceblue;
+       }
+
+       .search-container 
+       {
+          position:relative;
+          display: flex;
+          align-items: center;
+          max-width: 300px;
+          margin: 0 auto;
+          border-radius: 5px;
+          padding: 5px;
+          margin-top:-120px;
+          margin-left:570px;
+     }
+
+        #search-input
+         {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 5px;
+      }
+
+          #search-button 
+          {
+          background-color:yellow;
+          color: black;
+          border: none;
+          border-radius: 5px;
+          padding: 5px 10px;
+          cursor: pointer;
+          margin-left: 5px;
+     }
+
+     .button-MyAccount
+       {
+            position:absolute;
+            width:150px;
+            margin-top: -35px;
+            left:1100px;
+            height:30px;
+            background-repeat: no-repeat;
+            background-image: url("headIcon.png");
+            background-size: 30px 25px; 
+            cursor:pointer;
+          }
+         
+         .button-myBasket
+         {
+             position:absolute;
+             width:150px;
+             height:30px;
+             margin-top:-37px;
+             margin-left:1300px;
+             background-repeat:no-repeat ;
+             background-image: url("shoppingCart.png");
+             background-size: 30px 25px;
+             cursor:pointer;
+         }
+
+         .optiuni-Cont 
+            {
+                display: none;
+                position: absolute;
+                background-color: white;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                padding: 10px;
+                z-index: 1;
+                margin-left: 35px;
+                margin-top: 5px;
+             }
+
+            .button-MyAccount:hover .optiuni-Cont 
+            {
+            display: block;
+            }
+
+
+            a 
+            {
+                color:white
+            }
+
+            a, a:link, a:visited, a:hover, a:active 
+            {
+                text-decoration: none;
+            }
+
+            .KidShoes
+            {
+                position:absolute;
+                top:230px;
+                left:300px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .containerPoze
+            {
+                position:relative;
+                display:flex;
+                top:250px;
+                left:320px;
+                width:200px;
+               
+            }
+
+            .containerPoze img 
+            {
+               
+                display:flex;
+                top:300px;
+                left:200px;
+                width:200px;
+            }
+
+            .containerPoze img + img
+            {
+                margin-left: 100px;
+            }
+
+            .alDoileacontainerPoze
+            {
+                position:relative;
+                display:flex;
+                top:350px;
+                left:320px;
+                width:200px;
+            }
+
+            .alDoileacontainerPoze img 
+            {
+                display:flex;
+                width:200px;
+            }
+
+            .alDoileacontainerPoze img + img
+            {
+                margin-left:100px;
+            }
+
+            .containerIcoane
+            {
+                position:relative;
+                display:flex;
+                top:-140px;
+                left:40px;
+                flex-wrap: wrap;
+                cursor: pointer;
+            }
+
+            .containerIcoane img
+            {
+                display: block; 
+                width: 30px;
+                margin-right: 10px; 
+                margin-bottom: 10px;
+            }
+
+            .brand
+           {
+                position:absolute;
+                top:280px;
+                left:50px;
+                font-size:15px;
+           }
+
+
+           .primulAdidas
+           {
+            position:relative;
+            top:10px;
+            left:330px;
+            font-size:13px;
+            font-weight: bold;
+        }
+
+        .alDoileaAdidas
+        {
+            position:relative;
+            top:-18px;
+            left:625px;
+            font-size:12px;
+            font-weight: bold;
+        }
+
+        .alTreileaAdidas
+        {
+            position:relative;
+            top:-43px;
+            left:940px;
+            font-size:12px;
+            font-weight: bold;
+        }
+
+        .alPatruleaAdidas
+        {
+            position:relative;
+            top:-68px;
+            left:1220px;
+            font-size:12px;
+            font-weight: bold;
+        }
+
+        .texte-p
+       {
+            position: relative;
+            margin-top:215px;
+            left:250px;
+            margin-left:30px;
+            display:inline-block;   
+            font-size:12px;     
+            margin-right:100px;
+            font-weight: bold;
+        }
+
+        .descriere
+        {
+            position:absolute;
+            top:950px;
+            left:50px;
+            font-size:13px;
+            font-weight: bold;
+        }
+
+        .linie
+            {
+                position:relative;
+                border:1px solid black;
+                top:200px;
+            }
+
+            ul
+            {
+                position:relative;
+                top:250px;
+                left:200px;
+                font-weight:bold;
+                cursor:pointer;
+            }
+
+            ul.second-list
+            {
+                position:relative;
+                top:150px;
+                left:900px;
+                cursor:pointer;
+            }
+
+            .containerPoze a 
+            {
+            display: inline-block; 
+            margin-right: 103px; 
+            }
+
+            .alDoileacontainerPoze a
+            {
+                display: inline-block; 
+                margin-right: 105px; 
+            }
+
+</style>
+<div class="dreptunghi">
+    <p class="pozitie-p">
+        <a href="Men.html">Men</a>
+    </p>
+    <p class="pozitie-p">
+       <a href="Women.html">Women</a>
+    </p>
+    <p class="pozitie-p">
+        <a href="Kids.html">Kids</a>
+    </p>
+    <p class="pozitie-p">
+        <a href="Accesories.html">Accesories</a>
+    </p>
+    <p class="pozitie-p">
+        <a href="Brands.html">Brands</a>
+    </p>
+    <p class="nume-p">ACTIVE GEAR HUB</p>
+    </div>
+
+    <div class="search-container">
+       <input type="text" id="search-input" placeholder="Search...">
+       <button id="search-button">Search</button>
+   </div>
+   <button type="text" class="button-myBasket">MyBasket</button>
+   <button type="text" class="button-MyAccount">My Account
+       <div class="optiuni-Cont" id="optiuniCont">
+           <p>Sign In</p>
+           <p>Register</p>
+       </div>
+   </button>
+
+   <p class="KidShoes">MEN'S RUNNING SNEAKERS</p>
+   <div class="containerPoze">
+       <a href="MenRunningShoes1.html">
+        <img src="RunningShoesMan1.png">
+    </a>
+       <a href="MenRunningShoes2.html">
+       <img src="RunningShoesMan2.png">
+    </a>
+       <a href="MenRunningShoes3.html">
+       <img src="RunningShoesMan3.png">
+    </a>
+       <a href="MenRunningShoes4.html">
+       <img src="RunningShoesMan4.png">
+    </a>
+    </div>
+       <div class="alDoileacontainerPoze">
+           <a href="MenRunningShoes5.html">
+            <img src="RunningShoesMan5.png">
+        </a>
+        <a href="MenRunningShoes6.html">
+           <img src="RunningShoesMan6.png">
+        </a>
+           <a href="MenRunningShoes7.html">
+           <img src="RunningShoesMan7.png">
+        </a>
+        </div>
+       <div class="containerIcoane">
+           <img src="nikeIcon.png">
+           <img src="jordanIcon.png">
+           <img src="adidasIcon.png">
+           <img src="converseIcon.png">
+       </div>
+       <p class="brand">Brand</p>
+
+       <p class="primulAdidas">MEN'S ON CLOUDNOVA FORM</p>
+       <p class="alDoileaAdidas">NIKE AIR MAX 90 JEWEL SWOOSH</p>
+       <p class="alTreileaAdidas">NIKE AIR VAPORMAX PLUS </p>
+       <p class="alPatruleaAdidas">NIKE AIR VAPORMAX 2023 FLYKNIT</p>
+       <p class="texte-p">NIKE AIR VAPORMAX PLUS SHOOTING</p>
+       <p class="texte-p">NIKE AIR VAPORMAX 2023 FLYKNIT</p>
+       <p class="texte-p">NIKE AIR MAX 270</p>
+
+       <p class="descriere">MEN'S RUNNING SHOES<br>
+        <br>
+        Gear up for the miles ahead with the best running shoes for men from ACTIVE GEAR HUB. Our running assortment includes a wide-ranging selection of running sneakers to help every type of runner feel good about what they're lacing up. Whether you rack up your miles on the treadmill or pounding the pavement, looking to finish first or finding the motivation to start in the first place, we've got a pair for you. State-of-the-art styles from brands like On that help you reach top speed with innovative energy-returning tech. On running shoes like the On Cloudswift and On Cloudmonster deliver Swiss-engineered performance into your runs with everyday appeal. The adidas UltraBOOST and New Balance Fresh Foam Roav pack plenty of cushioning and support to go the distance while keeping your feet feeling fresh, and the UltraBOOST 22 GORE-TEX and Fresh Foam Trail V3 add rugged protection for scenic sessions in a variety of conditions across challenging terrains. Additional styles from brands like Brooks, Asics, Puma and more give you even more options to find your feet. Take the next step in your running journey and find your next pair of men's running shoes today at ACTIVE GEAR HUB
+        .</p>
+
+        <div class="linie"></div>
+
+        <ul>Shopping with ACTIVE GEAR HUB
+                
+            <li>Shipping Policy</li>
+            <li>Payment Methods</li>
+            <li>Gift Cards</li>
+            <li>Sizing chart</li>
+            <li>Store Directory</li>
+        </ul>
+
+        <ul class="second-list">LEGAL
+            <li>Privacy Policy</li>
+            <li>Targeted Ads Notice</li>
+            <li>Terms of Use</li>
+            <li>Do not sell or share my personal Data</li>
+        </ul>
+
+
+
+        <script>
+
+            let optiuniCont = document.getElementById('optiuniCont');
+            let myAccountButton = document.querySelector('.button-MyAccount');
+            
+            function afiseazaOptiuniCont() {
+                optiuniCont.style.display = 'block';
+            }
+            
+            function ascundeOptiuniCont() {
+                optiuniCont.style.display = 'none';
+            }
+            
+            myAccountButton.addEventListener('mouseover', afiseazaOptiuniCont);
+            myAccountButton.addEventListener('mouseleave', ascundeOptiuniCont);
+            
+            
+            
+            
+                </script>

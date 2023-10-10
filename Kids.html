@@ -1,0 +1,466 @@
+<style>
+    .dreptunghi
+        {
+            height:150px;
+            width:1520px;
+            background-color: black;
+            background-image: url("iconSport.png");
+            background-repeat: no-repeat;
+            background-position: 160px 30px;
+         }
+    
+           .pozitie-p
+           {
+                position: relative;
+                margin-top:115px;
+                margin-left:195px;
+                display:inline-block;        
+                color:aliceblue;
+           }
+    
+           .nume-p
+           {
+                position:relative;
+                margin-top:-100px;
+                margin-left:240px;
+                color:aliceblue;
+           }
+    
+           .search-container 
+           {
+              position:relative;
+              display: flex;
+              align-items: center;
+              max-width: 300px;
+              margin: 0 auto;
+              border-radius: 5px;
+              padding: 5px;
+              margin-top:-120px;
+              margin-left:570px;
+         }
+    
+            #search-input
+             {
+                flex: 1;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                padding: 5px;
+          }
+    
+              #search-button 
+              {
+              background-color:yellow;
+              color: black;
+              border: none;
+              border-radius: 5px;
+              padding: 5px 10px;
+              cursor: pointer;
+              margin-left: 5px;
+         }
+    
+         .button-MyAccount
+           {
+                position:absolute;
+                width:150px;
+                margin-top: -35px;
+                left:1100px;
+                height:30px;
+                background-repeat: no-repeat;
+                background-image: url("headIcon.png");
+                background-size: 30px 25px; 
+                cursor:pointer;
+              }
+             
+             .button-myBasket
+             {
+                 position:absolute;
+                 width:150px;
+                 height:30px;
+                 margin-top:-37px;
+                 margin-left:1300px;
+                 background-repeat:no-repeat ;
+                 background-image: url("shoppingCart.png");
+                 background-size: 30px 25px;
+                 cursor:pointer;
+             }
+    
+             .optiuni-Cont 
+                {
+                    display: none;
+                    position: absolute;
+                    background-color: white;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    padding: 10px;
+                    z-index: 1;
+                    margin-left: 35px;
+                    margin-top: 5px;
+                 }
+    
+                .button-MyAccount:hover .optiuni-Cont 
+                {
+                display: block;
+                }
+    
+                .category
+                {
+                   position:absolute;
+                   top:200px;
+                   left:620px;
+                   font-size:20px;
+                   font-weight: bold;
+                }
+    
+                .shoes img
+                {
+                   position:relative;
+                   display:flex;
+                   top:300px;
+                   left:425px;
+                   width:200px;
+                    height:auto;
+                }
+    
+                .shoes 
+                {
+                display: flex; 
+                justify-content: space-between;
+                top: 300px;
+                left: 320px;
+                width: 400px; 
+              }
+    
+              .shoes img + img 
+            {
+            margin-left: 290px;
+            
+        }
+    
+            .tshirt
+            {
+                position:relative;
+                top:400px;
+                left:450px;
+                width:170px
+            }
+    
+            .accesories
+            {
+                position:relative;
+                top:400px;
+                left:670px;
+                width:170px
+            }
+    
+           .textRunningShoes
+           {
+                position:absolute;
+                top:580px;
+                left:510px;
+           }
+    
+            .textLifeStyleShoes
+            {
+                position:absolute;
+                top:580px;
+                left:695px;
+            } 
+    
+            .textBasketball
+            {
+                position:absolute;
+                top:580px;
+                left:985px;
+            }
+    
+            .textTricou
+            {
+                position:absolute;
+                top:850px;
+                left:500px;
+            }
+    
+            .textAccesorii
+            {
+                position:absolute;
+                top:850px;
+                left:900px;
+            }
+    
+            .men
+            {
+                position:absolute;
+                top:250px;
+                left:300px;
+                font-size: 30px;
+                font-weight:bold;
+            }
+    
+            .textBrand
+            {
+                position:absolute;
+                top:950px;
+                left:650px;
+            }
+    
+            .logoNike
+            {
+                position:absolute;
+                top:1020px;
+                left:390px;
+            }
+            
+               .logoJordan
+               {
+                position:absolute;
+                top:1020px;
+                left:610px;
+               }
+    
+               .logoAdidas
+               {
+                    position:absolute;
+                    top:1020px;
+                    left:820px;
+               }
+    
+               .logoConverse
+               {
+                    position:absolute;
+                    top:1033px;
+                    left:1020px;
+                    width:80px;
+               }
+    
+                .altaDescriere
+                {   
+                    position:absolute;
+                    top:1250px;
+                    left:550px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }   
+    
+                a 
+            {
+                color:white
+            }
+
+            a, a:link, a:visited, a:hover, a:active 
+            {
+                text-decoration: none;
+            }
+
+            .iconRigla
+            {
+                position:absolute;
+                top:1400px;
+                left:400px;
+            }
+            
+            .fitForSure
+            {   
+                position:absolute;
+                top:1500px;
+                left:380px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .riglaOrizontala
+            {
+                position:absolute;
+                top:1410px;
+                left:720px;
+            }
+
+            .measureGuide
+            {
+                position:absolute;
+                top:1495px;
+                left:700px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .statusIcon
+            {
+                position:absolute;
+                top:1410px;
+                left:1050px;
+                height:100px;
+            }
+
+            .oneAccount
+            {
+                position:absolute;
+                top:1505px;
+                left:1000px;
+                font-weight: bold;
+                font-size:15px;
+            }
+
+            .bestSneakers
+            {
+                position:absolute;
+                top:1600px;
+                left:300px;
+                font-weight: bold;
+            }
+
+            .descriere
+        {
+            position:absolute;
+            top:1650px;
+            left:50px;
+            font-size:13px;
+            font-weight: bold;
+        }
+    
+        .linie
+            {
+                position:relative;
+                border:1px solid black;
+                top:1310px;
+            }
+
+            ul
+            {
+                position:relative;
+                top:1370px;
+                left:200px;
+                font-weight:bold;
+                cursor:pointer;
+            }
+
+            ul.second-list
+            {
+                position:relative;
+                top:1250px;
+                left:900px;
+            }
+
+            .shoes a 
+            {
+            display: inline-block; 
+            margin-right: 300px; 
+            }
+
+
+    </style>
+    <div class="dreptunghi">
+         <p class="pozitie-p">
+            <a href="Men.html">Men</a>
+         </p>
+         <p class="pozitie-p">
+            <a href="Women.html">Women</a>
+         </p>
+         <p class="pozitie-p">
+            <a href="Kids.html">Kids</a>
+         </p>
+         <p class="pozitie-p">
+            <a href="Accesories.html">Accesories</a>
+         </p>
+         <p class="pozitie-p">
+            <a href="Brands.html">Brands</a>
+         </p>
+         <p class="nume-p">ACTIVE GEAR HUB</p>
+         </div>
+    
+         <div class="search-container">
+              <input type="text" id="search-input" placeholder="Search...">
+              <button id="search-button">Search</button>
+          </div>
+          <button type="text" class="button-myBasket">MyBasket</button>
+          <button type="text" class="button-MyAccount">My Account
+              <div class="optiuni-Cont" id="optiuniCont">
+                  <p>Sign In</p>
+                  <p>Register</p>
+              </div>
+          </button>
+          <p class="category">SHOP BY CATEGORY</p>
+    
+          <div class="shoes">
+            <a href="JordanKid.html">
+            <img src="jordanKid.png">
+        </a>
+            <a href="FirstDayFitKid.html">
+          <img src="firstDayKid.png">
+        </a>
+        </div>
+        <a href="NewFromNikeKid.html">
+        <img src="newFromNike.png" class="tshirt">
+    </a>
+        <a href="BackPacksKid.html">
+        <img src="backPack.png" class="accesories">
+    </a>
+       
+        <p class="textRunningShoes">Jordan</p>
+        
+        <p class="textBasketball">First day Fits</p>
+        <p class="textTricou">New from Nike</p>
+        <p class="textAccesorii">BackPacks</p>
+    
+        <p class="men">KIDS</p>
+        <p class="textBrand">SHOP BY BRAND</p>
+        <img src="nikeIcon.png" class="logoNike">
+        <img src="jordanIcon.png" class="logoJordan">
+        <img src="adidasIcon.png" class="logoAdidas">
+        <img src="converseIcon.png" class="logoConverse">
+    
+        <p class="altaDescriere">KID-FOCUSED SHOPPING TOOLS</p>
+        <img src="riglaIcon.png" class="iconRigla">
+        <p class="fitForSure">FIT for SURE</p>
+        <img src="riglaOrizontala.png" class="riglaOrizontala">
+        <p class="measureGuide">Measure Guide</p>
+        <img src="statusIcon.png" class="statusIcon">
+        <p class="oneAccount">ONE ACCOUNT.MORE ACCES</p>
+        
+            <p class="descriere">KIDS' SPORTSWEAR FROM TOP BRANDS<br>
+                <br>
+                Of course, your kids need kids’ sports clothing to coordinate with all their sneakers! That’s why ACTIVE GEAR HUB has the best of the best kids’ sportswear to fit the style wants and activity needs of kids of all ages. From baby to toddler to little kids’ to big kids’, there’s clothing that all kids can rock. Brands like Champion, Nike, adidas, Jordan, Fila and more offer all the must-haves for your kids, like tees, shorts, tanks, hoodies, joggers, leggings, skirts, dresses and so much more. If your kiddo likes a matching set, you’ve come to the right place! Top and bottom sets make getting ready a snap for your little one, so there’s no dressing drama as they are heading off to school. Athleisure outfits for kids combine premium comfort and maximum durability, so they can last through all the wear and tear your kid puts them through! Shop all the latest kids’ athletic wear at ACTIVE GEAR HUB today!
+                 </p>
+
+                 <div class="linie"></div>
+
+                 <ul>Shopping with ACTIVE GEAR HUB
+                
+                    <li>Shipping Policy</li>
+                    <li>Payment Methods</li>
+                    <li>Gift Cards</li>
+                    <li>Sizing chart</li>
+                    <li>Store Directory</li>
+                </ul>
+        
+                <ul class="second-list">LEGAL
+                    <li>Privacy Policy</li>
+                    <li>Targeted Ads Notice</li>
+                    <li>Terms of Use</li>
+                    <li>Do not sell or share my personal Data</li>
+                </ul>
+
+
+
+    <script>
+    
+    let optiuniCont = document.getElementById('optiuniCont');
+    let myAccountButton = document.querySelector('.button-MyAccount');
+    
+    function afiseazaOptiuniCont() {
+        optiuniCont.style.display = 'block';
+    }
+    
+    function ascundeOptiuniCont() {
+        optiuniCont.style.display = 'none';
+    }
+    
+    myAccountButton.addEventListener('mouseover', afiseazaOptiuniCont);
+    myAccountButton.addEventListener('mouseleave', ascundeOptiuniCont);
+    
+               
+    
+    
+    
+    
+    
+    </script>
